@@ -47,11 +47,11 @@ Vagrant.configure("2") do |config|
   # Example for VirtualBox:
   #
   # config.vm.provider :virtualbox do |vb|
-  # # Don't boot with headless mode
-  # vb.gui = true
+  #   # Don't boot with headless mode
+  #   vb.gui = true
   #
-  # # Use VBoxManage to customize the VM. For example to change memory:
-  # vb.customize ["modifyvm", :id, "--memory", "1024"]
+  #   # Use VBoxManage to customize the VM. For example to change memory:
+  #   vb.customize ["modifyvm", :id, "--memory", "1024"]
   # end
   #
   # View the documentation for the provider you're using for more
@@ -62,22 +62,22 @@ Vagrant.configure("2") do |config|
   # some recipes and/or roles.
   #
   # config.vm.provision :chef_solo do |chef|
-  # chef.cookbooks_path = "cookbooks"
-  # chef.roles_path = "roles"
-  # chef.data_bags_path = "data_bags"
-  # chef.add_recipe "mysql"
-  # chef.add_role "web"
+  #   chef.cookbooks_path = "cookbooks"
+  #   chef.roles_path = "roles"
+  #   chef.data_bags_path = "data_bags"
+  #   chef.add_recipe "mysql"
+  #   chef.add_role "web"
   #
-  # # You may also specify custom JSON attributes:
-  # chef.json = { :mysql_password => "foo" }
+  #   # You may also specify custom JSON attributes:
+  #   chef.json = { :mysql_password => "foo" }
   # end
 
   # Enable provisioning with chef server, specifying the chef server URL,
   # and the path to the validation key (relative to this Vagrantfile).
   #
   # config.vm.provision :chef_client do |chef|
-  # chef.chef_server_url = "https://api.opscode.com/organizations/bomars"
-  # chef.validation_client_name = "bomars-validator"
-  # chef.validation_key_path = ".chef/bomars-validator.pem"
+  #   chef.chef_server_url = "https://api.opscode.com/organizations/bomars"
+  #   chef.validation_client_name = "bomars-validator"
+  #   chef.validation_key_path = ".chef/bomars-validator.pem"
   # end
 end
