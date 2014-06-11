@@ -36,6 +36,9 @@ Session.vim
 .netrwhist
 *~
 
+# rubymine
+.idea
+
 # OS X
 .DS_Store
 .AppleDouble
@@ -50,3 +53,6 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
+#vagrant secrets
+.vagrant
